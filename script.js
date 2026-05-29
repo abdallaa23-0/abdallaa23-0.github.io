@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const messages = [
     'CS AI Student · University of Alberta',
     'Open to internships & tech roles',
-    'APEGA Science Olympics Gold Medalist',
+    
   ];
 
   let msgIndex  = 0;
