@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdalla Ali — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <span class="nav-logo">abdalla.dev</span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#education">education</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tag reveal">CS &amp; AI Student · University of Alberta</div>
+    <h1>
+      <span class="hero-name reveal delay-1">Abdalla Ali<br></span>
+      <span class="hero-gradient reveal delay-2">Software &amp;<br>AI Engineer</span>
+    </h1>
+    <p class="hero-desc reveal delay-3">
+      Computer Science (Artificial Intelligence) student at the University of Alberta.
+      Passionate about technology, education,
+      and building things that matter.
+    </p>
+    <div class="hero-cta reveal delay-4">
+      <a href="#experience" class="btn btn-primary">My Experience</a>
+      <a href="mailto:abdalla.ali1136@gmail.com" class="btn btn-secondary">Get in Touch</a>
+    </div>
+    <div class="hero-stats reveal delay-5">
+      <div class="stat">
+        <span class="stat-num" data-target="4">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Years Work Exp.</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="5">0</span><span class="stat-plus"></span>
+        <span class="stat-label">Roles Held</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="2028">0</span>
+        <span class="stat-label">Graduating</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-text-col reveal">
+      <div class="section-label">About me</div>
+      <h2>Tech-driven.<br>People-focused.</h2>
+      <p class="about-text">
+        I'm Abdalla Ali, a Computer Science (AI) student at the University of Alberta,
+        expected to graduate in 2028. I have a background spanning retail tech sales,
+        STEM education, editorial work, and sports officiating — I bring adaptability
+        and a strong attention to detail to everything I do.
+      </p>
+      <p class="about-text">
+        Winner of the APEGA Science Olympics Gold Medal (2024). Currently teaching
+        robotics and coding to kids at Idea Lab Kids while pursuing my degree.
+      </p>
+    </div>
+    <div class="about-skills-col reveal delay-2">
+      <div class="section-label">Skills</div>
+      <div class="skills-grid">
+        <div class="skill-chip"><span class="skill-dot"></span>Leadership</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Problem Solving</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Computer Systems</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Databases</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Attention to Detail</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Time Management</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Tech Sales</div>
+        <div class="skill-chip"><span class="skill-dot"></span>STEM Education</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Customer Service</div>
+        <div class="skill-chip"><span class="skill-dot"></span>Safety & Compliance</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label reveal">Projects</div>
+    <h2 class="reveal delay-1">Things I've built.</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-meta">
+          <span class="project-type">Game Dev</span>
+          <span class="project-year">2024</span>
+        </div>
+        <div class="project-title">Depths of Silence</div>
+        <p class="project-desc">
+          An underwater horror game built in Roblox Studio featuring an oxygen
+          system, creature AI with camera-facing detection, flashlight battery
+          mechanics, and depth-based atmosphere.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Lua</span>
+          <span class="tag">Roblox Studio</span>
+          <span class="tag">Game AI</span>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="project-link">View on GitHub <span class="arrow">↗</span></a>
+      </div>
+
+      <div class="project-card reveal delay-1">
+        <div class="project-meta">
+          <span class="project-type">ML / Data Science</span>
+          <span class="project-year">2025</span>
+        </div>
+        <div class="project-title">Add Your Project</div>
+        <p class="project-desc">
+          Replace this with a real project — a data science notebook, ML model,
+          or any CS coursework you're proud of from UAlberta.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Pandas</span>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="project-link">View on GitHub <span class="arrow">↗</span></a>
+      </div>
+
+      <div class="project-card reveal delay-2">
+        <div class="project-meta">
+          <span class="project-type">Systems / C</span>
+          <span class="project-year">2025</span>
+        </div>
+        <div class="project-title">Add Your Project</div>
+        <p class="project-desc">
+          Replace this with a C project from CMPUT 201 — linked lists, memory
+          management, file I/O, or anything else you built this term.
+        </p>
+        <div class="project-tags">
+          <span class="tag">C</span>
+          <span class="tag">Algorithms</span>
+          <span class="tag">Memory Mgmt</span>
+        </div>
+        <a href="https://github.com/yourusername" target="_blank" class="project-link">View on GitHub <span class="arrow">↗</span></a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label reveal">Experience</div>
+    <h2 class="reveal delay-1">Where I've worked.</h2>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">February 2026 — Present</div>
+        <div class="timeline-role">Assistant Instructor &amp; Weekend Party Host</div>
+        <div class="timeline-company">Idea Lab Kids — St. Albert, AB</div>
+        <p class="timeline-desc">
+          Teaching STEM material to kids including robotics, coding, arts, and science.
+          Also hosts weekend birthday party events for parents and children.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">September 2024 — Present</div>
+        <div class="timeline-role">Soccer Referee</div>
+        <div class="timeline-company">Alberta Soccer — St. Albert &amp; Edmonton, AB</div>
+        <p class="timeline-desc">
+          Officiating soccer games across the Edmonton and St. Albert area,
+          ensuring fair play and safety on the field.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">May 2024 — June 2025</div>
+        <div class="timeline-role">Technology Sales Area Representative</div>
+        <div class="timeline-company">Staples Inc. — St. Albert, AB</div>
+        <p class="timeline-desc">
+          Sold laptops, monitors, and printers; offered tech support and device protection plans
+          to customers; managed product labelling, stocking, and cash register operations.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal delay-3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">December 2023 — April 2024</div>
+        <div class="timeline-role">Editor &amp; Formatter</div>
+        <div class="timeline-company">Riviere Qui Barre History Committee — Remote</div>
+        <p class="timeline-desc">
+          Edited and formatted book pages for publication as directed by the employer,
+          with meticulous attention to layout and content accuracy.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal delay-4">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">October 2022 — December 2022</div>
+        <div class="timeline-role">Associate</div>
+        <div class="timeline-company">Dollarama LTD — Edmonton, AB</div>
+        <p class="timeline-desc">
+          Stocked shelves, handled cashier duties, performed cleaning, price checks,
+          and product listing.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- VOLUNTEER -->
+    <div class="section-label reveal" style="margin-top: 3.5rem;">Volunteer</div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">April 2022 — June 2022</div>
+        <div class="timeline-role">Manager / Helper</div>
+        <div class="timeline-company">Paul Kane High School Soccer Team</div>
+        <p class="timeline-desc">Assisted coaches with game setup and teardown of nets and flags.</p>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">February 2022 — June 2024</div>
+        <div class="timeline-role">Cafeteria Volunteer</div>
+        <div class="timeline-company">Paul Kane High School — St. Albert</div>
+        <p class="timeline-desc">Helped with kitchen cleaning, cooking, and serving customers.</p>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">June 2022 &amp; June 2023</div>
+        <div class="timeline-role">General Volunteer</div>
+        <div class="timeline-company">St. Albert Children's Festival — Downtown St. Albert</div>
+        <p class="timeline-desc">Assisted festival attendees and supported event operations.</p>
+      </div>
+
+      <div class="timeline-item reveal delay-3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">April 13, 2024</div>
+        <div class="timeline-role">Volunteer</div>
+        <div class="timeline-company">School Garage Sale — Paul Kane High School</div>
+        <p class="timeline-desc">Assisted attendees and supported event logistics at the school garage sale.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label reveal">Education</div>
+    <h2 class="reveal delay-1">Where I've studied.</h2>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">September 2025 — April 2028</div>
+        <div class="timeline-role">BSc Computer Science — Artificial Intelligence</div>
+        <div class="timeline-company">University of Alberta</div>
+        <p class="timeline-desc">
+          Specializing in AI with coursework in algorithms, data structures, C programming,
+          data science, multivariable calculus, and probability &amp; statistics.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">September 2024 — May 2025</div>
+        <div class="timeline-role">Bachelor of Science</div>
+        <div class="timeline-company">MacEwan University</div>
+        <p class="timeline-desc">Completed first year of undergraduate science studies.</p>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-period">September 2021 — June 2024</div>
+        <div class="timeline-role">Alberta High School Diploma</div>
+        <div class="timeline-company">Paul Kane High School — St. Albert, AB</div>
+        <p class="timeline-desc">
+          Graduated June 2024. 
+        </p>
+      </div>
+
+    </div>
+
+    <!-- AWARDS -->
+    
+      <div class="award-card">
+        <div class="award-icon">🎓</div>
+        <div>
+          <div class="award-title">Alberta High School Diploma</div>
+          <div class="award-date">June 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label reveal">Contact</div>
+    <h2 class="reveal delay-1">Let's connect.</h2>
+    <p class="reveal delay-2">
+      Open to internships, research opportunities, and tech roles in the Edmonton area.
+    </p>
+    <div class="contact-links reveal delay-3">
+      <a href="mailto:abdalla.ali1136@gmail.com" class="btn btn-primary">abdalla.ali1136@gmail.com</a>
+      <a href="tel:+18258652864" class="btn btn-secondary">+1 (825) 865-2864</a>
+      <a href="https://github.com/abdallaa23-0" target="_blank" class="btn btn-secondary">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Abdalla Ali · Edmonton, AB</span>
+    <span>CS AI · University of Alberta</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
